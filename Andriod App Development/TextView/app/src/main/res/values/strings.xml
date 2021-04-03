@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TextView</string>
+    <string name="text_details">
+        Name : Nitish Biswas\n
+        Gmail : nitishbiswas.cse@gmail.com\n
+        Phone : 01956732580\n\n
+        Reading is the complex cognitive process of decoding symbols to derive meaning. It is a form of language processing. Success in this process is measured as reading comprehension. Reading is a means for language acquisition, communication, and sharing information and ideas.\n\nReading is the complex cognitive process of decoding symbols to derive meaning. It is a form of language processing. Success in this process is measured as reading comprehension. Reading is a means for language acquisition, communication, and sharing information and ideas.\n\n
+        Reading is the complex cognitive process of decoding symbols to derive meaning. It is a form of language processing. Success in this process is measured as reading comprehension. Reading is a means for language acquisition, communication, and sharing information and ideas.\n\nReading is the complex cognitive process of decoding symbols to derive meaning. It is a form of language processing. Success in this process is measured as reading comprehension. Reading is a means for language acquisition, communication, and sharing information and ideas.
+
+    </string>
+</resources>

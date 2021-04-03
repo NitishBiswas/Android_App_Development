@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">D-51_CSE_DIU</string>
+    <string name="r1">
+        Name : Joy Krishno Sing\nNumber : 01744639369\nBlood : O+
+    </string>
+    <string name="r2">
+        Name : Hamze Ahmed Abdlaahe\nNumber : 01745313744\nBlood :
+    </string>
+    <string name="r5">
+        Name : Nitish Biswas\nNumber : 01758989701\nBlood : O+
+    </string>
+    <string name="r6">
+        Name : Sarreha Tasmin Rikta\nNumber : 01703822674\nBlood : AB+
+    </string>
+    <string name="r7">
+        Name : Abdiqadir Muse Abdilahi\nNumber : 01756031409\nBlood :
+    </string>
+    <string name="r9">
+        Name : Ayonti Joanna Gathia\nNumber : 01681457282\nBlood : A+
+    </string>
+    <string name="r10">
+        Name : Md. Abu Musha\nNumber : 01789393989\nBlood : B+
+    </string>
+    <string name="r11">
+        Name : Nazmul Hossain Nahid\nNumber : 01737185373\nBlood : O+
+    </string>
+    <string name="r13">
+        Name : Md. Nahid Hossen\nNumber : 01775936826\nBlood : O+
+    </string>
+    <string name="r14">
+        Name : Adan Diriye Roble\nNumber : 01646313695\nBlood : 
+    </string>
+    <string name="r16">
+        Name : Atiqur Rahman Atiq\nNumber : 01700525823\nBlood : O+
+    </string>
+    <string name="r17">
+        Name : Imran Nur Hirey\nNumber : 01730978088\nBlood : 
+    </string>
+    <string name="r18">
+        Name : Robiul Hossain Mollah\nNumber : 01645769362\nBlood : O+
+    </string>
+    <string name="r19">
+        Name : Shafie Ahmed Roble\nNumber : 01646313856\nBlood : 
+    </string>
+    <string name="r21">
+        Name : Al Maruf Hossain\nNumber : 01718511795\nBlood : O+
+    </string>
+    <string name="r23">
+        Name : Md. Farthos All Amin Kabbo\nNumber : 01728861499\nBlood : O+
+    </string>
+    <string name="r25">
+        Name : Shafie Abdirahman Rage\nNumber : 01710672931\nBlood :
+    </string>
+    <string name="r28">
+        Name : Abdullahi Mohamed Hilowle\nNumber : 01821436294\nBlood :
+    </string>
+    <string name="r29">
+        Name : Mohamednur Abshir Mohamed\nNumber : 01730931984\nBlood :
+    </string>
+    <string name="r31">
+        Name : Abdifitah Abdi Warsame\nNumber : 01792636546\nBlood :
+    </string>
+    <string name="r33">
+        Name : Md. Mehedi Hasan Ullah\nNumber : 01687610784\nBlood : O+
+    </string>
+    <string name="r34">
+        Name : Abdimajid Mohamed Abdirahman\nNumber : 01772497067\nBlood :
+    </string>
+    <string name="r37">
+        Name : Md. Hassan Reza\nNumber : 01744197024\nBlood : O+
+    </string>
+    <string name="r39">
+        Name : Pro Yuusuf Diiriye Jaanbiir\nNumber : 01762284387\nBlood :
+    </string>
+</resources>

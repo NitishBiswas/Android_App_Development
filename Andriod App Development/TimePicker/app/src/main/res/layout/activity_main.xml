@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="176dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteY="48dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:id="@+id/selectBtnID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        />
+
+    <TimePicker
+        android:id="@+id/timePickerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TimePicker>
+
+</LinearLayout>

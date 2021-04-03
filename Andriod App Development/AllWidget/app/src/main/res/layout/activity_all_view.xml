@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3EFEF"
+    android:padding="10dp"
+    android:layout_weight="8"
+    tools:context=".all_view">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0"
+        android:background="#4C09C5"
+        app:title="All View"
+        app:titleTextColor="@color/white"
+        app:logo="@drawable/logo"
+        app:titleMarginStart="110dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/textviewID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_view"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:textIsSelectable="true"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                >
+                <Button
+                    android:id="@+id/playBtnID"
+                    android:layout_width="170dp"
+                    android:layout_height="52dp"
+                    android:text="Play Video"
+                    android:textAllCaps="false"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/purple_700"
+                    />
+                <Button
+                    android:id="@+id/pauseBtnID"
+                    android:layout_width="170dp"
+                    android:layout_height="52dp"
+                    android:text="Pause Video"
+                    android:textAllCaps="false"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="@color/white"
+                    android:textColor="@color/purple_700"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+                <VideoView
+                    android:layout_width="370dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/videoID"
+                    />
+                <ZoomControls
+                    android:id="@+id/zoomID"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editTextID"
+        android:layout_weight="1"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:hint="Enter Your comment"
+        android:textColorHint="#000"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/sendBtnID"
+            android:layout_width="170dp"
+            android:layout_height="52dp"
+            android:text="Send"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/purple_700"
+            />
+        <Button
+            android:id="@+id/facebookID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/facebook"
+            android:text="Facebook"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

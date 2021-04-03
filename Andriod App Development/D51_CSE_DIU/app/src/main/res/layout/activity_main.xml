@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#174CCF"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0B3FF8"
+        app:logo="@drawable/ni2"
+        app:title="D-51_CSE, DIU"
+        app:titleMarginStart="90dp"
+        app:titleTextColor="#FFFFFF" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+            <Button
+                android:id="@+id/rollOneBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 01"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollTwoBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 02"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollFiveBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 05"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollSixBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 06"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollSevenBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 07"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollNineBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 09"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollTenBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 10"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollElevenBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 11"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollThirteenBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 13"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollFourteenBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 14"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollSixteenBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 16"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollSeventeenBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 17"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFEFE"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollEighteenBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 18"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollNineteenBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 19"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollTwentyOneBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 21"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollTwentyThreeBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 23"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollTwentyFiveBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 25"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollTwentyEightBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 28"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollTwentyNineBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 29"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollThirtyOneBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 31"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollThirtyThreeBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 33"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollThirtyFourBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 34"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollThirtySevenBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 37"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/rollThirtyNineBtn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll - 39"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"
+                android:textStyle="italic"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

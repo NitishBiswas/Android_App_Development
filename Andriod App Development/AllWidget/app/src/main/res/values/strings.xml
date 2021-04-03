@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">All Widget</string>
+    <string name="view_button_name">All View</string>
+    <string name="button_button_name">All Button</string>
+    <string name="picker_button_name">All Picker</string>
+    <string name="exit_button_name">Exit</string>
+    <string name="text_view">
+        \tScrollView is used to scroll the child elements of palette inside ScrollView. Android supports vertical scroll view as default scroll view. Vertical ScrollView scrolls elements vertically. Android uses HorizontalScrollView for horizontal ScrollView."\n
+        \tA TextView displays text to the user and optionally allows them to edit it. A TextView is a complete text editor, however the basic class is configured to not allow editing.\n
+        \tScrollView is used to scroll the child elements of palette inside ScrollView. Android supports vertical scroll view as default scroll view. Vertical ScrollView scrolls elements vertically. Android uses HorizontalScrollView for horizontal ScrollView.\n
+        \tA TextView displays text to the user and optionally allows them to edit it. A TextView is a complete text editor, however the basic class is configured to not allow editing.\n
+
+    </string>
+</resources>

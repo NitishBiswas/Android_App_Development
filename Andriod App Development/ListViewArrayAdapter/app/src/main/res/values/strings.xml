@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ListViewArrayAdapter</string>
+
+    <string-array name="country_name">
+        <item>America</item>
+        <item>Bangladesh</item>
+        <item>Canada</item>
+        <item>Denmark</item>
+        <item>Bhutan</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Holy See</item>
+        <item>India</item>
+        <item>Japan</item>
+        <item>Kenya</item>
+        <item>Libya</item>
+    </string-array>
+
+    <string name="bangladesh_details">
+        Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked by lush greenery and many waterways. Its Padma (Ganges), Meghna and Jamuna rivers create fertile plains, and travel by boat is common. On the southern coast, the Sundarbans, an enormous mangrove forest shared with Eastern India, is home to the royal Bengal tiger.
+    </string>
+    <string name="india_details">
+        India, officially the Republic of India, is a country in South Asia. It is the second-most populous country, the seventh-largest country by land area, and the most populous democracy in the world.
+    </string>
+    <string name="bhutan_details">
+        Bhutan, a Buddhist kingdom on the Himalayas’ eastern edge, is known for its monasteries, fortresses (or dzongs) and dramatic landscapes that range from subtropical plains to steep mountains and valleys. In the High Himalayas, peaks such as 7,326m Jomolhari are popular trekking destinations. Paro Taktsang monastery (also known as Tiger’s Nest) clings to cliffs above the forested Paro Valley.
+    </string>
+
+</resources>

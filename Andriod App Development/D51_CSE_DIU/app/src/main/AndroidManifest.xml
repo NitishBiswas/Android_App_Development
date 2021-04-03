@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.d_51_cse_diu">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".roll_39"></activity>
+        <activity android:name=".roll_37" />
+        <activity android:name=".roll_34" />
+        <activity android:name=".roll_33" />
+        <activity android:name=".roll_31" />
+        <activity android:name=".roll_29" />
+        <activity android:name=".roll_28" />
+        <activity android:name=".roll_25" />
+        <activity android:name=".roll_23" />
+        <activity android:name=".roll_21" />
+        <activity android:name=".roll_19" />
+        <activity android:name=".roll_18" />
+        <activity android:name=".roll_17" />
+        <activity android:name=".roll_16" />
+        <activity android:name=".roll_14" />
+        <activity android:name=".roll_13" />
+        <activity android:name=".roll_11" />
+        <activity android:name=".roll_10" />
+        <activity android:name=".roll_9" />
+        <activity android:name=".roll_7" />
+        <activity android:name=".roll_6" />
+        <activity android:name=".roll_5" />
+        <activity android:name=".roll_2" />
+        <activity android:name=".roll_1" />
+        <activity android:name=".Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

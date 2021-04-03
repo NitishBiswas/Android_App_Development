@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3EFEF"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4C09C5"
+        app:title="All Widget"
+        app:titleTextColor="@color/white"
+        app:logo="@drawable/logo"
+        app:titleMarginStart="110dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/nitish" />
+
+        <Button
+            android:backgroundTint="@color/white"
+            android:textColor="@color/purple_700"
+            android:id="@+id/allViewID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:text="@string/view_button_name"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+        <Button
+            android:backgroundTint="@color/white"
+            android:textColor="@color/purple_700"
+            android:id="@+id/allButtonID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:text="@string/button_button_name"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+        <Button
+            android:backgroundTint="@color/white"
+            android:textColor="@color/purple_700"
+            android:id="@+id/allPickerID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:text="@string/picker_button_name"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+        <Button
+            android:backgroundTint="@color/white"
+            android:textColor="@color/purple_700"
+            android:id="@+id/exitID"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/exit_button_name"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

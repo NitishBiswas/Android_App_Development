@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    tools:context=".roll_5">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0B3FF8"
+        app:logo="@drawable/ni2"
+        app:title="Roll 05"
+        app:titleMarginStart="120dp"
+        app:titleTextColor="#FFFFFF" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/r5"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/r5"
+            android:textColor="#FFFDFD"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <ImageButton
+            android:id="@+id/rBtnFive"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/call"
+            android:background="@drawable/bg_round"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
